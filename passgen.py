@@ -13,7 +13,7 @@ def main():
     for i in range(int(length)):
         a = secrets.choice(main_func)
         password +="".join(a)
-    print(f"heres the password: {password}\n")
+    print(f"here's the password: {password}\n")
     with open("passowrd.txt", "a") as f:
         f.write(password + "\n")
     print("NOTE: The password will save as password.txt file in the current path")
